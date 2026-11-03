@@ -1,8 +1,7 @@
 # Python Security Automation
 
-This repo is where I'm building up my Python skills with a focus on cybersecurity and automation. I'm writing practical tools that solve real problems, and using them to get better at Python, software development, and defensive security work.
+I’m learning Python by building security tools I’d actually want to use. Every project here starts small and gets better as I find gaps, fix bugs, and add features.
 
-Each project starts small, with core functionality, and grows from there: testing, error handling, automation, and more security features as I go.
 
 ## Goals
 
@@ -10,14 +9,15 @@ Each project starts small, with core functionality, and grows from there: testin
 - Automate repetitive security and sysadmin tasks
 - Build tools for log analysis, network monitoring, and investigations
 - Practice secure coding, error handling, and testing
-- Plug these tools into my home SOC lab
+- Plug these tools into my home lab
 - Write down design decisions, limitations, and what I learn along the way
 
 ## Projects
 
 | Project | Description | Status |
 | --- | --- | --- |
-| [SHA-256 File Hashing Utility](file-integrity-monitor/README.md) | Calculates SHA-256 hashes for individual files and directories | V1 complete |
+| [SHA-256 File Hashing Utility](file-integrity-monitor/README.md) | V1: calculates SHA-256 hashes for files and directories. V2: baseline storage, hourly checks, and change alerts | V1 complete, V2 planned |
+
 
 More projects will be added as I build them.
 
