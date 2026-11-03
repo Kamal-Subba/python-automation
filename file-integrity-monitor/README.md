@@ -41,43 +41,36 @@ For each path you give it, the tool:
 
 No third-party packages needed.
 
+
 ## Usage
 
-From the project directory:
+Pass the tool one or more files or directories, and it prints a SHA-256 hash for each file it finds. Directories are searched recursively.
 
 ```bash
-cd file-integrity-monitor
+python3 fim.py <path> [<path> ...]
 ```
 
-See the available options:
+Examples:
 
 ```bash
-python3 fim.py --help
-```
-
-Hash a single file:
-
-```bash
+# Hash a single file
 python3 fim.py example.txt
-```
 
-Hash a directory:
-
-```bash
+# Hash everything in a directory
 python3 fim.py /path/to/directory
-```
 
-Hash multiple targets at once:
-
-```bash
+# Hash several targets at once
 python3 fim.py example.txt /path/to/directory
 ```
 
-Each successfully hashed file is printed on its own line:
+Each file is printed on its own line:
 
 ```
 File: example.txt | SHA256: <hash>
 ```
+
+Run `python3 fim.py --help` to see the available options.
+
 
 ## Testing
 
